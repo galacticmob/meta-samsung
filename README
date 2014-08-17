@@ -12,33 +12,13 @@ the Yocto mailing list puts it in the archive and helps other people
 who might have the same questions in the future), but please try to do
 the following first:
 
-  - look in the Yocto Project Bugzilla
-    (http://bugzilla.yoctoproject.org/) to see if a problem has
-    already been reported
-
-  - look through recent entries of the yocto-bsp
-    (https://lists.yoctoproject.org/pipermail/yocto-bsp/) and Yocto
-    (https://lists.yoctoproject.org/pipermail/yocto/) mailing list
-    archives to see if other people have run into similar problems or
-    had similar questions answered.
-
-If you believe you have encountered a bug, you can open a new bug and
-enter the details in the Yocto Project Bugzilla
-(http://bugzilla.yoctoproject.org/).  If you're relatively certain
-that it's a bug against the BSP itself, please use the 'Yocto Project
-Components: BSPs | meta-samsung' category for the bug; otherwise, please
-submit the bug against the most likely category for the problem - if
-you're wrong, it's not a big deal and the bug will be recategorized
-upon triage.
-
 Guidelines for submitting patches
 =================================
 
-Please submit any patches against meta-samsung BSPs to the meta-samsung
-mailing list (meta-samsung@yoctoproject.org).  Also, if your patches are
-available via a public git repository, please also include a URL to
-the repo and branch containing your patches as that makes it easier
-for maintainers to grab and test your patches.
+Please submit any patches against meta-samsung BSPs to akuster808@gmail.com.
+Also, if your patches are available via a public git repository, 
+please also include a URL to the repo and branch containing your patches 
+as that makes it easier for maintainers to grab and test your patches.
 
 There are patch submission scripts available that will, among other
 things, automatically include the repo URL and branch as mentioned.
@@ -62,10 +42,6 @@ they should:
   - For the body of the commit message, provide detailed information
     that describes what you changed, why you made the change, and the
     approach you used.
-
-  - If the change addresses a specific bug or issue that is associated
-    with a bug-tracking ID, include a reference to that ID in your
-    detailed description in the following format: [YOCTO #<bug-id>].
 
   - Pay attention to line length - please don't allow any particular
     line in the commit message to stretch past 72 characters.
